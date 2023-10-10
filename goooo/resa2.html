@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reseau</title>
+    <link rel="stylesheet" href="resea.css">
+    <link rel="stylesheet" href="stl2.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <div class="menu-bar">
+        
+        <ul>
+          <div onclick="history.back()" class="ico"><i class='bx bx-left-arrow-alt'></i></div>
+          <li><a href="#"><a href="resea.html">Mr.nglamba/.....</a></a></li>
+          <li><a href="#">voir + <i class="fas fa-caret-down"></i></a>
+              <div class="dropdown-menu">
+                  <ul>
+                    
+                    <li>
+                      <a href="#">UE GI 31 <i class="fas fa-caret-right"></i></a>
+                      
+                      <div class="dropdown-menu-1">
+                        <ul>
+                          <li><a href="#">analyse et conception des SI</a></li>
+                          
+                         
+                        </ul>
+                      </div>
+                    </li>
+
+                    <li>
+                        <a href="#">UE GI 32 <i class="fas fa-caret-right"></i></a>
+                        
+                        <div class="dropdown-menu-1">
+                          <ul>
+                            <li><a href="#">mathematique discrait</a></li>
+                            <li><a href="#">methode numerique</a></li>
+                            <li><a href="#">probabilite et stat</a></li>
+                            <li><a href="#">methode d'optimisation</a></li>
+                          </ul>
+                        </div>
+                      </li>
+
+                      <li>
+                        <a href="#">UE GI 33 <i class="fas fa-caret-right"></i></a>
+                        
+                        <div class="dropdown-menu-1">
+                          <ul>
+                            <li><a href="#">droit et aspects jurudique</a></li>
+                            <li><a href="#">comptabilite</a></li>
+                          </ul>
+                        </div>
+                      </li>
+                    <li><a href="#">FAQ</a></li>
+                  </ul>
+                </div>
+          </li>
+          
+        </ul>
+    </div>
+
+    <div class="re">
+        <div class="exo1"><a href="#">Exercice 1</a>: <br><br></div>
+        <p class="no">1) qu'est ce qui differencie les reseaux <samp>LAM,MAN,WAN,WLAN </samp> ? dans quelle situation utilise-t-on chaque type de reseau</p>
+        <br>
+        <button onclick="opemn()">reponse</button><br><br>
+        <div class="coo">
+            <b>ce qui les differencie c'est la <span>la zone geographique</span>
+            <br><br>on utilise le LAN pour connecter les  ordinateur d'une salle d'informatique par exemple, le MAN pour connecter deux reseaux LAN , le WAN pour connecter des equipements entre deux ou plusieurs pays , et le WLAN pour connecter les equipements de type sans file d'une localite 
+            </b>
+        </div><br>
+
+        <p class="no">2) pourquoi il est important de comprendre le protocole de communication utiliser dans un reseau informatique</p>
+    <br>
+    <button onclick="opemn2()">reponse</button><br><br>
+    <div class="coo2">
+        <b>pour pouvoir resoudre facilement les problèmes en cas de pannes </b>
+    </div><br>
+
+    <p class="no">3) quelle sont les equipements reseaux les plus courant ? comment fonctionne-t-il et a qoui servent-ils</p>
+    <br>
+    <button onclick="opemn3()">reponse</button><br><br>
+    <div class="coo3">
+        <b><span>routeur</span> sert a connecter plusieurs ordinateur a un meme reseau ... <br>
+        <span>commutateur </span> sert a faire communique plusieurs ordinateurs <br>
+    <span>modem</span> sert a se connecter a internet </b>
+    </div><br>
+
+    <p class="no">4) comment le modele <span>TCP/IP</span> differe du modele <span>OSI</span> ? quel sont les avantages et les inconveniemt</p>
+    <button onclick="opemn4()">reponse</button><br><br>
+    <div class="coo4">
+      <b>ils differe par leurs couches <br><br>
+    <span>avantage osi</span> comprehension plus facile, resolution des problemes en cas de panne plus rapide <br>
+<span>inconveniemt osi</span> difficile a mettre en oeuvre , cout elevee <br><br>
+<span>avantage tcp/ip</span> facile a realiser  <br>
+<span>inconveniemt tcp/ip</span> la resolution des problemes prend plus de temps</b>
+  </div><br>
+
+
+  <div class="exo1"><a href="#">Exercice 2</a>:</div>
+
+  <p class="no">Les périphériques nécessaires pour l'installation d'un réseau sans fil </p>
+  <button onclick="opemn5()">reponse</button><br><br>
+  <div class="coo5">
+    <b>1. Un routeur sans fil <br>
+
+        
+        2. Des cartes réseau sans fil 
+
+        <br>
+                        
+        3. La vitesse de transmission des données : Il est important de choisir des équipements qui permettent une transmission rapide des données.
+        <br>
+        
+        4. Le budget disponible  </b>
+</div><br>
+    </div>
+
+
+    <script src="ao.js"></script>
+
+</body>
+</html>
